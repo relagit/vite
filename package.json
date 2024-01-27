@@ -1,0 +1,28 @@
+{
+    "name": "@relagit/vite",
+    "version": "1.0.0",
+    "description": "Allows you to easily configure a vite build of a RelaGit workflow.",
+    "type": "module",
+    "main": "dist/index.js",
+    "scripts": {
+        "dev": "rollup -c -w --configPlugin typescript",
+        "build": "rollup -c --configPlugin typescript"
+    },
+    "keywords": [
+        "vite",
+        "relagit",
+        "workflow",
+        "relagit-plugin"
+    ],
+    "author": "TheCommieAxolotl",
+    "license": "LGPL-3.0-or-later",
+    "devDependencies": {
+        "@rollup/plugin-typescript": "^11.1.6",
+        "@types/node": "^20.11.7",
+        "rollup": "^4.9.6",
+        "tslib": "^2.6.2",
+        "typescript": "^5.3.3",
+        "vite": "^5.0.12",
+        "vite-plugin-dts": "^3.7.2"
+    }
+}
