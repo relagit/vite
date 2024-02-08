@@ -1,12 +1,13 @@
 {
     "name": "@relagit/vite",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Allows you to easily configure a vite build of a RelaGit workflow.",
     "type": "module",
     "main": "dist/index.js",
     "scripts": {
         "dev": "rollup -c -w --configPlugin typescript",
-        "build": "rollup -c --configPlugin typescript"
+        "build": "rollup -c --configPlugin typescript",
+        "prepublishOnly": "pnpm build"
     },
     "keywords": [
         "vite",
