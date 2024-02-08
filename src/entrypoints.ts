@@ -24,6 +24,8 @@ export const makeConfig = (entries: { plugin: string; native?: string }): { plug
         out.native = entries.native;
     }
 
+    fs.writeFileSync(path.join(process.cwd(), "relagit.json"), JSON.stringify(out, null, 4));
+
     return out;
 };
 
