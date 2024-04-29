@@ -1,6 +1,6 @@
 {
     "name": "@relagit/vite",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Allows you to easily configure a vite build of a RelaGit workflow.",
     "type": "module",
     "main": "dist/index.js",
